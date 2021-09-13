@@ -19,8 +19,8 @@ h1{
     /* text-shadow: 1px 1px rgb(112, 238, 164); */
 }
 .container{
-    width:30vw;
-    max-width: 40vw;
+    /* width:30vw; */
+    max-width: 300px;
     text-align: center;
     margin: auto;
 }
