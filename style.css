@@ -87,6 +87,7 @@ footer {
   .footer-list {
     margin: 0.7rem;
     padding-inline-start: 0px;
+    font-size: large;
   }
   
   li{

@@ -17,7 +17,7 @@
          CheckNumberIsLucky(sumofDate,luckyNumberToCheck);     // (36,3)
      }
     else{
-        message.innerText ="Please enter both the fields!!!";
+        message.innerText ="Please enter both the fields!!!😠😠😠";
     }
 
  });
