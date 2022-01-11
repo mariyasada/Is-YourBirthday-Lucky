@@ -17,12 +17,12 @@
          CheckNumberIsLucky(sumofDate,luckyNumberToCheck);     // (36,3)
      }
     else{
-        message.innerText ="Please enter both the fields!!!😠😠😠";
+        message.innerText =`Please enter both the fields!!!😠😠😠`;
     }
 
  });
 
- function calculateSum(dob)
+ const calculateSum = (dob) =>
  {
      dob = dob.replaceAll("-","");
      console.log(dob);
@@ -37,7 +37,7 @@
      return sum;
  }
 
- function CheckNumberIsLucky(sumofDate,luckyNumberToCheck){
+ const CheckNumberIsLucky = (sumofDate,luckyNumberToCheck) => {
 
     if(sumofDate % luckyNumberToCheck === 0){            //(36 % 3===0)
         message.innerText=`${luckyNumberToCheck} is a lucky number!!!!🥳🥳🥳🥳🥳🥳`; }
